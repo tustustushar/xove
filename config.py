@@ -13,18 +13,18 @@ que = {}
 admins = {}
 SESSION_NAME = getenv("SESSION_NAME", "session")
 BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME", "Zaid")
-BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/abda83eda086dc5b187c3.png")
-THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/abda83eda086dc5b187c3.png")
-AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/abda83eda086dc5b187c3.png")
-QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/5aa50f1f5315ee259a409.png")
+BOT_NAME = getenv("BOT_NAME", "Lovely")
+BG_IMAGE = getenv("BG_IMAGE", "https://telegra.ph/file/2a03483d5383e6cff182b.jpg")
+THUMB_IMG = getenv("THUMB_IMG", "https://telegra.ph/file/2a03483d5383e6cff182b.jpg")
+AUD_IMG = getenv("AUD_IMG", "https://telegra.ph/file/2a03483d5383e6cff182b.jpg")
+QUE_IMG = getenv("QUE_IMG", "https://telegra.ph/file/2a03483d5383e6cff182b.jpg")
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_USERNAME = getenv("BOT_USERNAME", "Zaid2_Robot")
-ASSISTANT_NAME = getenv("ASSISTANT_NAME", "Zaid_Assistant")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "Superior_Support")
-UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "Superior_Bots")
-OWNER_NAME = getenv("OWNER_NAME", "Timesisnotwaiting")
+BOT_USERNAME = getenv("BOT_USERNAME", "LOVELYR_OBOT")
+ASSISTANT_NAME = getenv("ASSISTANT_NAME", "LOVELY2VC")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "ABOUTVEDMAT")
+UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "LOVELYAPPEAL")
+OWNER_NAME = getenv("OWNER_NAME", "TUSHAR204")
 PMPERMIT = getenv("PMPERMIT", "ENABLE")
 # fill with your id as the owner of the bot
 OWNER_ID = int(os.environ.get("OWNER_ID"))
@@ -41,6 +41,7 @@ U_BRANCH = "main"
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_REPO = os.environ.get(
-    "UPSTREAM_REPO", "https://github.com/Itsunknown-12/Zaid-Vc-Player"
+    "UPSTREAM_REPO", "https://github.com/attitudeking1/Zaid-Vc-Player"
 )
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
+https://telegra.ph/file/2a03483d5383e6cff182b.jpg
