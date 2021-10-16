@@ -17,7 +17,7 @@ async def inline(client: Client, query: InlineQuery):
             query.id,
             results=answers,
             switch_pm_text="type a youtube video name...",
-            switch_pm_parameter="help",
+            switch_pm_parameter="vchelp",
             cache_time=0,
         )
     else:
