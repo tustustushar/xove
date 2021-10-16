@@ -448,7 +448,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls"),
                 ],
-                [InlineKeyboardButton(text="🎧 CHANNEL", url=f"https://t.me/zaid_Updates")],
+                [InlineKeyboardButton(text="🎧 CHANNEL", url=f"https://t.me/ABOUTVEDMAT")],
             ]
         )
         file_name = get_file_name(audio)
@@ -495,7 +495,7 @@ async def play(_, message: Message):
                   InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                   InlineKeyboardButton("🗑 Close", callback_data="ccls")
               ],[
-                  InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/zaid_Updates")
+                  InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/ABOUTVEDMAT")
               ]
           ]
         )
@@ -537,7 +537,7 @@ async def play(_, message: Message):
                     InlineKeyboardButton("⏺ Menu", callback_data="cmenu"),
                     InlineKeyboardButton("🗑 Close", callback_data="ccls")
                 ],[
-                    InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/Zaid_Updates")
+                    InlineKeyboardButton("🎧 CHANNEL", url=f"https://t.me/ABOUTVEDMAT")
                 ]
             ]
         )
@@ -573,7 +573,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="🎧 **playing** the song requested by {} via Zaid Bot, in linked channel".format(
+            caption="🎧 **playing** the song requested by {} Lovely Bot, in linked channel".format(
                 message.from_user.mention()
             ),
         )
