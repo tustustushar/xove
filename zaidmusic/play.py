@@ -147,7 +147,7 @@ def updated_stats(chat, queue, vol=100):
             stats += "🎚 ᴠᴏʟᴜᴍᴇ: {}%\n".format(vol)
             stats += "🎵 ꜱᴏɴɢ ᴘʟᴀʏᴇᴅ: `{}`\n".format(len(que))
             stats += "💡 ɴᴏᴡ ᴘʟᴀʏɪɴɢ: **{}**\n".format(queue[0][0])
-            stats += "🎧 ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ: {}".format(queue[0][1].mention)
+            stats += "🎧 Lᴏᴠᴇʟʏ ᴜꜱᴇʀ ʙʏ: {}".format(queue[0][1].mention)
     else:
         stats = None
     return stats
@@ -514,7 +514,7 @@ async def ytplay(_, message: Message):
 
     except Exception as e:
         await lel.edit(
-            "😕 **ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ꜱᴏɴɢ ʏᴏᴜ ʀᴇQᴜᴇꜱᴛᴇᴅ**\n\n» **ᴘʟᴇᴀꜱᴇ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ꜱᴏɴɢ ɴᴀᴍᴇ ᴏʀ ɪɴᴄʟᴜᴅᴇ ᴛʜᴇ ᴀʀᴛɪꜱᴛ'ꜱ ɴᴀᴍᴇ ᴀꜱ ᴡᴇʟʟ**"
+            "😕 **ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ꜱᴏɴɢ ʏᴏᴜ ʀᴇQᴜᴇꜱᴛᴇᴅ**\n\n» **ᴘʟᴇᴀꜱᴇ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇ sᴏɴɢ ɪɴᴄʟᴜᴅᴇ ᴛʜᴇ ᴀʀᴛɪꜱᴛ'ꜱ ɴᴀᴍᴇ ᴀꜱ ᴡᴇʟʟ**"
         )
         print(str(e))
         return
@@ -540,9 +540,9 @@ async def ytplay(_, message: Message):
             ],
             [
                 InlineKeyboardButton(
-                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/Superior_Bots"
+                    "☑️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/LOVELYAPPEAL"
                 ),
-                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/Superior_Support"),
+                InlineKeyboardButton("ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/ABOUTVEDMAT"),
             ],
         ]
     )
@@ -560,7 +560,7 @@ async def ytplay(_, message: Message):
         qeue.append(appendable)
         await message.reply_photo(
             photo="final.png",
-            caption=f"☑️ **ꜱᴏɴɢ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ »** `{position}`\n\n🏷 **ɴᴀᴍᴇ:** [{title[:80]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🎧 **ᴢᴀɪᴅ ᴜꜱᴇʀ ʙʏ:** {message.from_user.mention}",
+            caption=f"☑️ **ꜱᴏɴɢ ᴀᴅᴅᴇᴅ ᴛᴏ Qᴜᴇᴜᴇ »** `{position}`\n\n🏷 **ɴᴀᴍᴇ:** [{title[:80]}]({url})\n⏱ **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}`\n🎧 **Lᴏᴠᴇʟʏ ᴜꜱᴇʀ ʙʏ:** {message.from_user.mention}",
             reply_markup=keyboard,
         )
     else:
