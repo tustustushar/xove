@@ -35,7 +35,7 @@ async def _human_time_duration(seconds):
     return ', '.join(parts)
 
 
-@Client.on_message(filters.command(["alive", f"alive@{BOT_USERNAME}"]))
+@Client.on_message(filters.command(["vcalive", f"alive@{BOT_USERNAME}"]))
 async def alive(client: Client, message: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
@@ -60,7 +60,7 @@ async def alive(client: Client, message: Message):
                         "💫 ɢʀᴏᴜᴘ", url=f"https://t.me/ABOUTVEDMAT"
                     ),
                     InlineKeyboardButton(
-                        "ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/LOVELYAPPEL"
+                        "ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/LOVELYAPPEAL"
                     )
                 ]
             ]
