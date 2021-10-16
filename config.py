@@ -44,4 +44,3 @@ UPSTREAM_REPO = os.environ.get(
     "UPSTREAM_REPO", "https://github.com/attitudeking1/Zaid-Vc-Player-1"
 )
 HEROKU_URL = fetch_heroku_git_url(HEROKU_API_KEY, HEROKU_APP_NAME)
-https://telegra.ph/file/2a03483d5383e6cff182b.jpg
