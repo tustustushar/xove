@@ -66,13 +66,13 @@ async def start_(client: Client, message: Message):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],[
-                    InlineKeyboardButton(" ꜱᴇᴛᴜᴘ⚡", callback_data="cbhowtouse")],
+                    InlineKeyboardButton(" ꜱᴇᴛᴜᴘ", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton(
-                        "ʟᴏᴠᴇ sʜᴀʏʀɪ ❤️", url="https://t.me/shayari_of_loves")
+                        "ʟᴏᴠᴇ sʜᴀʏʀɪ ", url="https://t.me/shayri_of_loves")
                 ],[
                     InlineKeyboardButton(
-                        "⚡ ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/LOVELYAPPEAL"
+                        "ᴏꜰꜰɪᴄɪᴀʟ ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/LOVELYAPPEAL"
                     ),
                     InlineKeyboardButton(
                         "ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ ☑️", url=f"https://t.me/ABOUTVEDMAT")
@@ -145,7 +145,7 @@ async def help_(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚡ ʙᴀꜱɪᴄ ᴄᴍᴅꜱ", callback_data="cbbasic"
+                        "ʙᴀꜱɪᴄ ᴄᴍᴅꜱ", callback_data="cbbasic"
                     ),
                     InlineKeyboardButton(
                         " ᴀᴅᴠᴀɴᴄᴇᴅ ᴄᴍᴅꜱ", callback_data="cbadvanced"
